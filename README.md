@@ -4,7 +4,12 @@ Deep dive into Operating Systems
 
 ## Split 1
 
-- Windows
+- Windows 
 - Linux
 - MaccOS
 - BSD
+
+--- Predecessors
+
+- DOS
+- Unix
