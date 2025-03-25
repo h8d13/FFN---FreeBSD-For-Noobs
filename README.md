@@ -48,4 +48,6 @@ This installer size is illustrative and will take more space on disk (after unpa
 
 -----
 
+For most OSes you will have to go through some basic documentation to get started.
 
+But here we love to fail and bricj the install 50 times so let's proceed. 
