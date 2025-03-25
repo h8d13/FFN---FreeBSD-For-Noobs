@@ -23,7 +23,7 @@ Often broken down into:
 
 Architecture Type & Installation type
 
-Architectures means processor type.  
+Architectures > Processors
 ```
 amd64
 i386
