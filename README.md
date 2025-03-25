@@ -7,7 +7,7 @@ Deep dive into Operating Systems
 - Windows 
 - Linux
 - MaccOS
-- BSD
+- OPENBSD / FREEBSD
 
 ### Predecessors
 
