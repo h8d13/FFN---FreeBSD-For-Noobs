@@ -71,3 +71,12 @@ Now don't forget to:
 freebsd-update fetch
 ```
 then the same but install. 
+
+
+----
+
+As alwyas to fix my keyboard...
+
+Add `setxkbmap fr` in `/usr/local/etc/sddm/Xsetup` and reboot. 
+
+
