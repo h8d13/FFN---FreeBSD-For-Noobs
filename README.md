@@ -45,7 +45,7 @@ But here we love to fail and brick the install 50 times so let's proceed.
 --- 
 
 Step 1. Get through installers, on some systems it's hell. Here it's actually not that bad. 
-We can use arrows space and enter for base config of what we want. 
+We can use arrows, space to select and enter for base config of what we want. 
 
 What we can do in the meantime is make sure we know what we have to do next. 
 
@@ -71,5 +71,3 @@ Now don't forget to:
 freebsd-update fetch
 ```
 then the same but install. 
-
-
