@@ -1,17 +1,4 @@
-# OS-Deep
-Deep dive into Operating Systems. I think I'm reaching the end of the rabbit hole... Or am I?
-
-## Split 1
-
-- Windows 
-- Linux
-- MaccOS
-- OPENBSD / FREEBSD
-
-### Predecessors
-
-- DOS
-- Unix
+# FreeBSD 
 
 ----- 
 
@@ -46,6 +33,7 @@ Hint :
 > For example alpine is 5mb, alpine with base utils is going to be more... You get the idea.
 
 This installer size is illustrative and will take more space on disk (after unpacking), unless it's a live system.
+I picked the DVD as I believe it comes with most pre-installed. 
 
 -----
 
@@ -62,32 +50,26 @@ We can use arrows space and enter for base config of what we want.
 What we can do in the meantime is make sure we know what we have to do next. 
 
 First we'll need to update our sources like on other operation systems.
-
+```
 pkg update && pkg upgrade
-freebsd-update fetch 
-freebsd-update install 
+```
+Then:
+
+`pkg install -y kde5 xorg` 
+
+Then go to the user and run `startx` 
+
+Okay lesson 1. Always create a user when prompted. Even if that no button is tempting. 
 
 -----
 
+![Screenshot from 2025-03-25 23-58-39](https://github.com/user-attachments/assets/5c42851c-de1c-4153-87eb-6d61ac50b409)
 
-Let it rip for a bit. Some lines will execute for longer that is normal. 
+Now don't forget to:
 
-pkg install gnome-desktop gdm xorg
-Enable the required services in /etc/rc.conf:
+```
+freebsd-update fetch
+```
+then the same but install. 
 
-echo 'gnome_enable="YES"' >> /etc/rc.conf
-Do the same for gdm and dbus.
-
------
-
-BIOSes 
-
-- SEABIOS
-- OpenFirmware
-- Much garbage here.
-
-
------
-
-Okay lesson 1. ALways create a user when prompted. Even if that no button is tempting. 
 
