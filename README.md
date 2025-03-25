@@ -78,5 +78,16 @@ Enable the required services in /etc/rc.conf:
 echo 'gnome_enable="YES"' >> /etc/rc.conf
 Do the same for gdm and dbus.
 
+-----
 
+BIOSes 
+
+- SEABIOS
+- OpenFirmware
+- Much garbage here.
+
+
+-----
+
+Okay lesson 1. ALways create a user when prompted. Even if that no button is tempting. 
 
