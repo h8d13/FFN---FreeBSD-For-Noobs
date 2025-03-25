@@ -25,17 +25,17 @@ Architecture Type & Installation type
 
 Architectures means processor type.  
 ```
-    amd64
-    i386
-    aarch64
-    armv7
-    powerpc
-    powerpc64
-    powerpc64le
-    powerpcspe
-    riscv64
----
-VM Images, SD Card Images, etc
+amd64
+i386
+aarch64
+armv7
+powerpc
+powerpc64
+powerpc64le
+powerpcspe
+riscv64
+
+Might also include specific, Netboot Images, VM Images, SD Card Images, etc
 ``` 
 
 While the installation type is often the contents itself: Minimal, server, desktop, live environment, ... 
