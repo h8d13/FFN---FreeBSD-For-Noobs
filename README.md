@@ -42,7 +42,7 @@ While the installation type is often the contents itself: `Minimal, server, desk
 Hence why it's important to go some do some research for the type of project you are aiming to achieve. 
 
 > Hint : Look at the sizes of the installers they can be a good indication.
-> For example alpine is 5mb, alpine with base is more... You get the idea.
+> For example alpine is 5mb, alpine with base utils is going to be more... You get the idea.
 
 This installer size is illustrative and will take more space on disk (after unpacking), unless it's a live system.
 
