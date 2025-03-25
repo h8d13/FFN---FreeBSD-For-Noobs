@@ -72,8 +72,11 @@ freebsd-update install
 
 Let it rip for a bit. Some lines will execute for longer that is normal. 
 
+pkg install gnome-desktop gdm xorg
+Enable the required services in /etc/rc.conf:
 
-
+echo 'gnome_enable="YES"' >> /etc/rc.conf
+Do the same for gdm and dbus.
 
 
 
