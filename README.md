@@ -38,8 +38,13 @@ riscv64
 Might also include specific, Netboot Images, VM Images, SD Card Images, etc
 ``` 
 
-While the installation type is often the contents itself: Minimal, server, desktop, live environment, ... 
+While the installation type is often the contents itself: `Minimal, server, desktop, live environment, ...` 
 Hence why it's important to go some do some research for the type of project you are aiming to achieve. 
+
+> Hint : Look at the sizes of the installers they can be a good indication.
+> For example alpine is 5mb, alpine with base is more... You get the idea.
+
+This installer size is illustrative and will take more space on disk (after unpacking), unless it's a live system.
 
 -----
 
