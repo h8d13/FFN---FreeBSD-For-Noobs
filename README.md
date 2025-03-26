@@ -47,6 +47,8 @@ But here we love to fail and brick the install 50 times so let's proceed.
 Step 1. Get through installers, on some systems it's hell. Here it's actually not that bad. 
 We can use arrows, space to select and enter for base config of what we want. 
 
+I ticked all but the "dbg" packages as I guess they are verbose vversions I did not need. 
+
 What we can do in the meantime is make sure we know what we have to do next. 
 
 First we'll need to update our sources like on other operation systems.
@@ -57,10 +59,11 @@ Then:
 
 `pkg install -y kde5 xorg sddm` 
 
-Little trick, if you want KDE without all the pre-installed apps: use plasma5-plasma instead. This will reduce the downloads by 30%. 
+Little trick: if you want KDE without all the pre-installed apps: use plasma5-plasma instead. This will reduce the downloads by 30%-50%. 
 
-Then go to the user and run `startx` 
-You can add it to a file in the home directory of the user in ~/.xinitrc 
+Then go to the user and run `startx` this is the manual way (that I enjoy.)
+
+Or you can add it to a file in the home directory of the user in ~/.xinitrc 
 `exec startplasma-x11`
 
 Okay lesson 1. Always create a user when prompted. Even if that no button is tempting. 
