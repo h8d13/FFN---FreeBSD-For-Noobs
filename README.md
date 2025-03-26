@@ -89,5 +89,8 @@ Add `setxkbmap fr` in `/usr/local/share/sddm/scripts/Xsetup` and reboot.
 
 Overall this was one of the simplest and most well guided installers I've come accross. It is intuitive yet customizable. Also love the security options put forward. 
 
-Total installation size minimal KDE was about 4.56Gib. 
+
+Total installation size minimal KDE was about 4.56Gib vs 7.5Gib for the full with games and utilities. 
+
+
 
