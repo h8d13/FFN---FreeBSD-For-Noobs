@@ -61,8 +61,7 @@ Little trick, if you want KDE without all the pre-installed apps: use plasma5-pl
 
 Then go to the user and run `startx` 
 You can add it to a file in the home directory of the user in ~/.xinitrc 
-`exec startx`
-Then 
+`exec startplasma-x11`
 
 Okay lesson 1. Always create a user when prompted. Even if that no button is tempting. 
 
@@ -76,10 +75,16 @@ Now don't forget to:
 freebsd-update fetch
 ```
 then the same but install. 
+
 ----
 
-As alwyas to fix my keyboard...
+As alwyas to fix my keyboard in login manager. 
 
 Add `setxkbmap fr` in `/usr/local/share/sddm/scripts/Xsetup` and reboot. 
 
+---
+
+Overall this was one of the simplest and most well guided installers I've come accross. It is intuitive yet customizable. Also love the security options put forward. 
+
+Total installation size minimal KDE was about 4.56Gib. 
 
