@@ -55,11 +55,14 @@ pkg update && pkg upgrade
 ```
 Then:
 
-`pkg install -y kde5 xorg` 
+`pkg install -y kde5 xorg sddm` 
 
-Litthe trick, if you want KDE without all the pre-installed apps: use plasma5-plasma instead. 
+Little trick, if you want KDE without all the pre-installed apps: use plasma5-plasma instead. This will reduce the downloads by 30%. 
 
 Then go to the user and run `startx` 
+You can add it to a file in the home directory of the user in ~/.xinitrc 
+`exec startx`
+Then 
 
 Okay lesson 1. Always create a user when prompted. Even if that no button is tempting. 
 
@@ -73,12 +76,10 @@ Now don't forget to:
 freebsd-update fetch
 ```
 then the same but install. 
-
-
 ----
 
 As alwyas to fix my keyboard...
 
-Add `setxkbmap fr` in `/usr/local/etc/sddm/Xsetup` and reboot. 
+Add `setxkbmap fr` in `/usr/local/share/sddm/scripts/Xsetup` and reboot. 
 
 
