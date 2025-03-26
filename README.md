@@ -57,6 +57,8 @@ Then:
 
 `pkg install -y kde5 xorg` 
 
+Litthe trick, if you want KDE without all the pre-installed apps: use plasma5-plasma instead. 
+
 Then go to the user and run `startx` 
 
 Okay lesson 1. Always create a user when prompted. Even if that no button is tempting. 
